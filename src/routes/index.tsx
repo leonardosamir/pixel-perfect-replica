@@ -27,8 +27,6 @@ export const Route = createFileRoute('/')({
       { property: 'og:description', content: 'Sua essência, valorizada. Atendimento personalizado em estética facial e odontologia em Santarém, PA.' },
       { property: 'og:type', content: 'website' },
       { name: 'twitter:card', content: 'summary_large_image' },
-      { property: 'og:image', content: doctor.url },
-      { name: 'twitter:image', content: doctor.url },
     ],
   }),
   component: Index,
@@ -108,7 +106,7 @@ function Index() {
       </div></section>
       <section className="section about" id="sobre"><div className="container about-grid">
         <Reveal><div className="about-photo"><img className="clinic-image" src={clinicImage.url} alt="Ambiente ilustrativo de consultório" loading="lazy" /><img className="doctor-image" src={doctor.url} alt="Retrato editorial ilustrativo — não representa a Dra. Helena" loading="lazy" /><span>Retrato e ambiente ilustrativos</span></div></Reveal>
-        <Reveal className="about-copy"><p className="eyebrow">Conheça sua especialista</p><MaskTitle><h2>Dra. Helena<br /><em>Um olhar além da estética.</em></h2></MaskTitle><p>Acreditamos que o melhor resultado é aquele que revela sua beleza sem deixar de ser você. Por isso, cada plano de cuidado começa com uma conversa, uma avaliação criteriosa e respeito às suas expectativas.</p><p>Em Santarém, a proposta da Dra. Helena une estética facial e odontologia estética em uma experiência personalizada, do primeiro encontro ao acompanhamento.</p><div className="credential"><strong>Formação acadêmica e registro profissional</strong><p>Informações em atualização. Consulte a clínica para conhecer a formação e os registros da profissional.</p></div><div className="signature">Dra. Helena</div></Reveal>
+        <Reveal className="about-copy"><p className="eyebrow">Conheça sua especialista</p><MaskTitle><h2>Dra. Helena<br /><em>Um olhar além da estética.</em></h2></MaskTitle><p>Acreditamos que o melhor resultado é aquele que revela sua beleza sem deixar de ser você. Por isso, cada plano de cuidado começa com uma conversa, uma avaliação criteriosa e respeito às suas expectativas.</p><p>Em Santarém, a proposta da Dra. Helena une estética facial e odontologia estética em uma experiência personalizada, do primeiro encontro ao acompanhamento.</p><div className="credential"><strong>Cirurgiã-dentista · Bucomaxilofacial</strong><p>Atuação em cirurgia e traumatologia bucomaxilofacial.</p><p>Registro profissional: consulte a clínica.</p></div><div className="signature">Dra. Helena</div></Reveal>
       </div></section>
       <section className="section contact" id="contato"><div className="container"><Reveal className="contact-band">
         <div className="contact-info"><p className="eyebrow">Seu próximo encontro com o cuidado</p><h2>Esperamos por você.</h2><div className="contact-details"><MapPin size={18} /><p><strong>Santarém, Pará</strong><br />{clinic.address}</p></div><div className="contact-details"><Clock3 size={18} /><p><strong>Horários de atendimento</strong><br />Segunda a sexta, das 08h às 19h<br />Atendimento com agendamento prévio</p></div><div className="contact-actions"><Button variant="champagne" asChild><a href={mapsUrl} target="_blank" rel="noopener noreferrer"><MapPin />Google Maps<ArrowUpRight /></a></Button><Button variant="champagne" asChild><a href={wazeUrl} target="_blank" rel="noopener noreferrer"><Navigation />Waze<ArrowUpRight /></a></Button></div></div>

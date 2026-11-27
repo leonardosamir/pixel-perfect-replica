@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "asset_id": "6516a03e-5b06-489c-bef6-e0f08e2053d7",
+  "asset_id": "00adba4a-0abc-4223-aac1-3c2d44129e80",
   "project_id": "f819b1bb-dac3-4b16-9c7f-dc1d4e2622d9",
-  "url": "/__l5e/assets-v1/6516a03e-5b06-489c-bef6-e0f08e2053d7/helena-doctor-cutout",
-  "r2_key": "a/v1/f819b1bb-dac3-4b16-9c7f-dc1d4e2622d9/6516a03e-5b06-489c-bef6-e0f08e2053d7/helena-doctor-cutout",
-  "original_filename": "helena-doctor-cutout",
-  "size": 1910532,
+  "url": "/__l5e/assets-v1/00adba4a-0abc-4223-aac1-3c2d44129e80/helena-doctor-portrait",
+  "r2_key": "a/v1/f819b1bb-dac3-4b16-9c7f-dc1d4e2622d9/00adba4a-0abc-4223-aac1-3c2d44129e80/helena-doctor-portrait",
+  "original_filename": "helena-doctor-portrait",
+  "size": 1894039,
   "content_type": "image/png",
-  "created_at": "2026-11-27T04:28:51Z"
+  "created_at": "2026-11-27T04:33:20Z"
 }
