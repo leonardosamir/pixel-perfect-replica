@@ -3,5 +3,6 @@
 - [x] Conectar agendamento ao WhatsApp informado.
 - [x] Verificar navegação, comparadores e apresentação no celular.
 - [x] Inserir endereço real e links de rota para Travessa Barjonas de Miranda, 1356.
-- [ ] Inserir foto, formação, registros e depoimentos reais (aguarda material).
+- [ ] Inserir fotos e depoimentos reais (aguarda material).
 - [x] Incluir formação informada: cirurgiã-dentista, bucomaxilofacial.
+- [x] Exibir CRO-PA informado: 123456789.
