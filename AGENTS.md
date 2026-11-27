@@ -28,3 +28,9 @@ use the editor.
   own key and store it in Secrets.
 - **Secrets.** Lovable manages them. Do not put secret values in the repo.
 <!-- LOVABLE:END -->
+
+## Application structure
+- Keep the clinic website as one scrolling index route with section anchors because the requested experience is a continuous landing page.
+- Store contact configuration and navigation links in the browser-safe clinic module so all appointment buttons share the same verified destination.
+- Store photographic media as asset JSON pointers and render standard img elements so photos remain visually editable.
+- Keep unconfirmed clinical credentials, testimonials and generated comparisons explicitly unverified or illustrative; never present them as real patient evidence.
